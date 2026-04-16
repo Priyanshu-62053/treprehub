@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Review Test</title>
+</head>
+<body>
+  <!-- Upper header : -->
+ <section>
+  <div class="header">
+    <h2>Result Review </h2>
+    <hr>
+    <div class="details"><span>Score: <span id="score"></span></span> | <span>Accuracy: <span id="accuracy"> </span></span>|  <span>Wrong Selection: <span id="wrong_answer">Wrong Selection : 4</span></span></div>
+
+    <div class="review-below"><span>Name: <span id="user_name"></span></span> </div>
+  </div>
+ </section>
+
+   <!-- question answer section start  -->
+
+   <section class="container-section">
+    <div class="container">
+      <h4 id="question_no">Question <span id="quesNum"></span></h4>
+      <div id="question_para"> ➡️ Time Complexity of binary serach Algoeithm ?</div>
+      <hr>
+      <div class="opt" id="option1">Ologn</div>
+      <hr>
+      <div class="opt" id="option2">0(1)</div>
+      <hr>
+      <div class="opt" id="option3">Onlogn</div>
+      <hr>
+
+      <div class="opt" id="option4"></div>
+      <!-- <div class="opt  id="">more than one of the Above</div> -->
+      
+      <hr>
+<!-- div gor incorrect show  -->
+ <div id="incorrect-opt">Your Ans :
+  <span id="incorrect-option"></span> <span id="incorect-span">Incorrect ❌</span></div>
+
+<!-- div for show correct option  -->
+ <div id="correct-opt">  Correct Answer : <span id="correct-option">ologn</span> <span>✅</span></div>
+</div>
+
+ <!--  div for explnation  -->
+    <div class="explain-container">
+     <div class="explain-para">
+      <h3 > 💡 Explnation</h3>
+     <hr><br>
+      <p id="explaination">
+        O(1) is not correct answer because binary search takes ologn time to search element : 
+        O(1) is not correct answer because binary search takes ologn time to search element : 
+        O(1) is not correct answer because binary search takes 
+      </p>
+      <!-- button to go bacck and next : -->
+     </div>
+      <div class="btns">
+        <button id="prev-btn">Previous</button>
+      <button  id="next-btn">Next</button>
+      </div>
+      
+    </div>
+   </section>
+
+
+
+  <script src="review.js"></script>
+
+</body>
+</html>
+  
+</body>
+</html>

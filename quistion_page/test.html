@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<!--   uper wala div for timer : --> 
+  <div class="timer">
+      <h3 id="timerClock">⌛ Time Left:59.23</h3>
+       <button id="submit">Submit</button>
+        <!-- <button onclick="SubmitTest()">Submit</button> -->
+    </div>
+      
+<!-- ---------nav end--------------------------------------------- -->
+      <!-- main div---- start from here :-------------- -->
+       
+  <div class="main">
+  
+    
+    <!-- div for question number : -->
+     <div class="quesNum">
+      <h5 id="quesCount">Question 1</h5>
+      <hr>
+     </div>
+  <!-- div for mcq question:  para-->
+   <div class="question-space"><div class="question_para"> Who is below not a programing langauge?</div></div>
+<!-- div for mcq options  -->
+<div class="mcq_option">
+  <div class="option" id="option1">C++</div>
+<div class="option" id="option2">CSS</div>
+<div class="option" id="option3">JavaScript</div>
+<div class="option" id="option4">Python</div>
+</div>
+
+<!-- div for three buttons  -->
+ <div class="btns">
+  <button id="prev">⬅️Previous</button>
+  <button id="next">Next   ➡️</button>
+  
+ </div>
+
+ <!-- loader section  -->
+<div class="loader-wrapper">
+  <div class="loader"></div>
+  <p class="loader-text">Submitting your test...
+</p>
+</div>
+ 
+  </div>
+  <script src="questions.js"></script>
+  <!-- <a href="/result_page/result.html"></a> -->
+
+  <script src="index.js"></script>
+</body>
+</html>
